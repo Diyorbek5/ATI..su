@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #F2F2F2;
+}
+
+.navbar {
+  height: 50px;
+  background-color: white;
+  position: relative;
+}
+
+.nav-elements ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.nav-elements ul a {
+  font-size: 14px;
+  color: #574c4c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stickynav {
+    width: 100%;
+    height: 30px;
+    background-color: #D9DDE0;
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+    z-index: 10;
+}
+.stickynav .load, .stickynav .truck, .stickynav .tender{
+    width: 180px;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stickynav a {
+    text-decoration: none;
+    color: #39444F;
+}
+.stickynav .load {
+    background-color: #C4DB77;
+}
+.stickynav .truck {
+    background-color: #F3CC6F;
+}
+.stickynav .tender {
+    width: 300px;
+}
+
+.header {
+    width: 100%;
+    height: 310px;
+    background-color: #468BC8;
+}
+.header h1, .header h3 {
+    color: #fff;
+}
+.header h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.header h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.image_box {
+    position: absolute;
+    right: 400px;
+    box-sizing: border-box;
+}
+.image_box .image1 {
+    position: absolute;
+    top: 30px;
+}
+.image_box .image2 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.image_box .image3 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+.image_box .image4 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.image_box .image5 {
+    position: absolute;
+    top: 30px;
+    left: 280px;
+}
+
+
+.statistic_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.statistic {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+.statistic .span_hide {
+    color: #ffffff7d;
+}
+.statistic-item {
+    display: flex;
+    font-weight: 900;  
+    color: #fff;
+    border-bottom: 1px solid #ffffff7e;
+}
+.statistic-item span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #fff;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1210px) {
+    * {
+        box-sizing: border-box;
+    }
+      .humburger_icon {
+        display: block;
+      }
+      .nav-elements ul {
+        position: relative;
+        top: 305px;
+        left: -151px;
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between; 
+        background-color: #a0acb8;
+        flex-direction: column;
+        z-index: 5;
+      }
+}
+@media (max-width: 1024px) {
+    .statistic_box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .statistic h2 {
+        font-size: 14px;
+    }
+    .statistic .span_hide {
+        display: none;
+    }
+    .statistic-item span {
+        font-size: 12px;
+    }
+      .header h1 {
+        width: 350px;
+        font-size: 25px;
+      }
+}
+@media (max-width: 768px) {
+    .stickynav .load, .stickynav .truck, .stickynav .tender {
+        display: flex;
+        justify-content: center;
+    }
+    .a_hide {
+        display: none;
+    }
+    .image_box {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .header h1 {
+        width: 400px;
+    }
+    .header h3 {
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .header h1 {
+        width: 250px;
+        font-size: 20px;
+    }
+    .header h3 {
+        font-size: 14px;
+    }
+    .statistic h2 {
+        font-size: 12px;
+    }
+    .statistic h2 span {
+        font-size: 8px;
+    } 
+    .stickynav .tender {
+        display: none;
+    }
+    .stickynav {
+        width: 100%;
+    }
+    .stickynav .load, .stickynav .truck {
+        width: 100%;
+    }
+}

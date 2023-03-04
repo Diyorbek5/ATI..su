@@ -1,0 +1,65 @@
+.mobile {
+    margin-top: 400px;
+    
+}
+.mobile_card {
+    background-color: #F7FFD7;
+    margin-bottom: 50px;
+}
+.mobile_img {
+    width: 420px;
+}
+
+.applications h1,.applications h2 {
+    font-weight: 700;
+    color: #39444F;
+}
+.apps img {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.apps h2 {
+    margin-top: -5px;
+}
+.apps p {
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+.apps .app_btn {
+    border: 1px solid #39444F;
+    background-color: #F7FFD7;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.apps .app_btn:hover {
+    border: 1px solid #39444F;
+    background-color: #39444F;
+    color: #fff;
+}
+
+.partners_card h2 {
+    font-weight: 500;
+}
+.partners_card .link_btn {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -10px;
+}
+.partners_card p {
+    font-size: 16px;
+}
+.link_btn Button {
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+}
+
+
+@media (max-width: 768px) {
+    .mobile_img {
+        display: none;
+    }
+}

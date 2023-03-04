@@ -1,0 +1,12 @@
+export {default as link1} from './1.svg';
+export {default as link2} from './2.png';
+export {default as link3} from './3.jpeg';
+export {default as link4} from './4.png';
+export {default as link5} from './5.png';
+export {default as link6} from './6.svg';
+export {default as link7} from './7.svg';
+export {default as link8} from './8.svg';
+export {default as link9} from './9.svg';
+export {default as link10} from './10.svg';
+export {default as link11} from './11.svg';
+export {default as link12} from './12.svg';

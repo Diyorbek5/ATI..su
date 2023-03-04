@@ -1,0 +1,208 @@
+.service {
+    position: relative;
+    top: 330px;
+}
+
+
+
+.btnloads, .btntrucks, .btndefault {
+    height: 40px;
+    border-radius: 45px;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.btnloads {
+    background-color: #64B82A;
+}
+.btnloads:hover {
+    background-color: #569909;
+}
+.btntrucks {
+    background-color: #E6BA4D;
+}
+.btntrucks:hover {
+    background-color: #cf9f26;
+}
+.btndefault {
+    border: 1px solid #5594CB;
+    color: #5594CB;
+}
+.btndefault:hover {
+    background-color: #5594CB;
+    color: #fff;
+}
+
+.trucks_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.truckcard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.truckimage {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    left: 333px;
+    top: -15px;
+}
+.addcard h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1px;
+}
+.addcard .addbtn {
+    border: 1px solid #5594CB;
+    color: #5594CB;
+    border-radius: 25px;
+}
+.addbtn1 {
+    background-color: #F7FFF4;
+}
+.addbtn2 {
+    background-color: #FEF8E7;
+}
+.addcard .addbtn:hover {
+    background-color:#5594CB;
+    color: #fff;
+}
+
+.btnlink {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5594CB;
+}
+.btnlink:hover {
+    color: #427fb5;
+    text-decoration: underline;
+}
+
+.carousel {
+    display: none;
+}
+.services h2 {  
+    font-size: 24px;
+    font-weight: 500;
+    color: #39444F;
+}
+.services p {
+    font-size: 16px;
+    color: #39444F;
+    margin-top: -20px;
+}
+.services .btnservice {
+    color: #427fb5;
+    border: 1px solid #427fb5;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 14px;
+}
+.services .btnservice:hover {
+    color: #fff;
+    background-color: #427fb5;
+}
+.card {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #fff;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.card_title {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+.card p {
+    margin-top: -5px;
+    color: #39444f8a;
+}
+
+.btnhide {
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 0;
+    margin-top: 10px;
+    color: #8C969D;
+    background-color: #d3d3d3;
+    transition: all 1s ease;
+    margin-bottom: 50px;
+}
+.btnhide:hover {
+    color: #777f85 !important;
+    background-color: #B8B8B8;
+    border: none;
+}
+
+/* Advertisements section */
+.advertisements {
+    margin-top: 50px;
+}
+.advertisements span {
+    color: #8C969D;
+}
+.advertisements h2 {
+    color: #39444F;
+    font-weight: 500;
+    line-height: 24px;
+}
+.ad_item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.ad_item p {
+    font-size: 12px;
+    color: #8C969D;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.ad_image {
+    width: 100%;
+    min-height: 70px;
+    margin-left: -5px;
+}
+
+.adbtn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #39444F;
+    background-color: #e5e4e4;
+    border-radius: 2px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .trucks_box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trucks_b {
+        width: 100%;
+        height: 100px;
+        margin-bottom: -200px;
+    }
+    .service_hide {
+        display: none;
+    }
+}
